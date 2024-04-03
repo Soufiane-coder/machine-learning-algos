@@ -11,6 +11,14 @@ X = 10 * np.random.rand(100, 1)
 noise = np.random.randn(100, 1)
 Y = 3 * X + 5 + noise
 
+# training dataset and labels
+# train_input = np.array(data.x[0:500]).reshape(500, 1)
+# train_output = np.array(data.y[0:500]).reshape(500, 1)
+
+# # valid dataset and labels
+# test_input = np.array(data.x[500:700]).reshape(199, 1)
+# test_output = np.array(data.y[500:700]).reshape(199, 1)
+
 
 def model(X, Y, epochs):
     w0 = 0
